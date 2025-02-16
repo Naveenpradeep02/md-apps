@@ -28,7 +28,9 @@ p {
   color: #7c8595;
   margin-bottom: 15px;
 }
-
+.hero-text {
+  font-size: 11px;
+}
 a,
 a:hover,
 a:focus {
@@ -151,7 +153,7 @@ input {
 }
 
 .blue {
-  color: #3498db;
+  color: #081a47;
 }
 
 .lyla {
@@ -238,11 +240,8 @@ input {
 }
 
 .section-lyla {
-  background: #fff;
-  background: -webkit-linear-gradient(left top, #0274bf, #fff);
-  background: -o-linear-gradient(bottom right, #0274bf, #fff);
-  background: -moz-linear-gradient(bottom right, #0274bf, #fff);
-  background: linear-gradient(to bottom right, #0274bf, #fff);
+  background: #081a47;
+
   padding: 90px 0 70px 0;
 }
 
@@ -632,11 +631,8 @@ ul.footer_social li a i:hover {
 }
 
 .home-section {
-  background: #fff;
-  background: -webkit-linear-gradient(left top, #0274bf, #fff);
-  background: -o-linear-gradient(bottom right, #0274bf, #fff);
-  background: -moz-linear-gradient(bottom right, #0274bf, #fff);
-  background: linear-gradient(to bottom right, #0274bf, #fff);
+  background: #081a47;
+
   background-size: cover;
   width: 100%;
   position: relative;
@@ -696,7 +692,7 @@ p.home-yellow-cta-text {
   font-weight: 700;
   text-decoration: underline;
   letter-spacing: 1px;
-  color: yellow;
+  color: rgb(255, 255, 255);
 }
 
 span.arrow {
@@ -739,8 +735,8 @@ select.register-input {
 input.register-submit-top,
 input.register-submit {
   color: #fff;
-  border: 1px solid orange;
-  background-color: orange;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   cursor: pointer;
   display: inline-block;
   font-size: 14px;
@@ -849,7 +845,7 @@ p.register_success_box {
 }
 
 .team-info::after {
-  background: #ed4e38;
+  background: #000000;
   display: inline-block;
   vertical-align: middle;
   content: "";
@@ -899,7 +895,7 @@ ul.team-icon li a.twitter {
 }
 
 ul.team-icon li a.pinterest {
-  background-color: #c92228;
+  background-color: #ffffff;
 }
 
 ul.team-icon li a.facebook {
@@ -966,7 +962,7 @@ ul.team-icon li a.dribble {
 }
 
 .portfolio-item-wrapper h3 a:hover {
-  color: #3498db;
+  color: #081a47;
 }
 
 .portfolio-box p.portfolio-info {
@@ -1092,7 +1088,7 @@ ul.features-responsive li i {
 }
 
 .feature-box.light-green i {
-  background: #a9d129;
+  background: #ffffff;
 }
 
 .feature-box.dark-green i {
@@ -1100,7 +1096,7 @@ ul.features-responsive li i {
 }
 
 .feature-box.orange i {
-  background: #fe9c24;
+  background: #ffffff;
 }
 
 .feature-box.light-red i {
@@ -1207,11 +1203,7 @@ ul.features-responsive li i {
 
 .price-box-blue {
   text-align: left;
-  background: #fff;
-  background: -webkit-linear-gradient(left top, #0274bf, #59b7f6);
-  background: -o-linear-gradient(bottom right, #0274bf, #59b7f6);
-  background: -moz-linear-gradient(bottom right, #0274bf, #59b7f6);
-  background: linear-gradient(to bottom right, #0274bf, #59b7f6);
+  background: #081a47;
   box-shadow: rgba(33, 33, 33, 0.06) 0 4px 24px 5px;
   padding: 20px;
   color: #fff;
@@ -1243,7 +1235,7 @@ ul.features-responsive li i {
 .price-box-white ul.pricing-list li.price-value,
 .price-box-grey .price-title,
 .price-box-grey ul.pricing-list li.price-value {
-  color: #f44336;
+  color: #000000;
 }
 
 .price-box-white .price-subtitle,
@@ -1631,7 +1623,7 @@ input#email_newsletter:-ms-input-placeholder {
 
 .btn-blue {
   color: #fff !important;
-  background: #3498db;
+  background: #081a47;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -1652,7 +1644,7 @@ input#email_newsletter:-ms-input-placeholder {
 
 .btn-blue:hover {
   color: #fff;
-  background: #3498db;
+  background: #081a47;
 }
 
 .btn-white {
