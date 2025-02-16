@@ -902,48 +902,6 @@ p {
   font-family: var(--main-primary-font);
 }
 /* ==================Header============================= */
-header {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px 150px;
-  background-color: var(--light-color);
-  box-shadow: var(--shadow-color);
-  position: fixed;
-  top: 0;
-  z-index: 100;
-}
-
-.logo img {
-  width: 150px;
-}
-
-nav {
-  display: flex;
-  align-items: center;
-  position: relative;
-}
-
-nav ul {
-  display: flex;
-  gap: 30px;
-}
-
-nav ul li {
-  list-style: none;
-  position: relative;
-}
-
-nav ul li a {
-  cursor: pointer;
-  text-decoration: none;
-  font-family: var(--main-primary-font);
-  color: var(--main-primary-color);
-  padding: 10px;
-  display: inline-block;
-  font-weight: 600;
-}
 
 /*========================== Sub-menu ========================*/
 .sub-service {
@@ -1648,16 +1606,6 @@ footer {
 
 /*===================== Extra Small Devices ======================= */
 @media screen and (max-width: 575px) {
-  header {
-    padding: 20px;
-    position: relative;
-  }
-  .logo img {
-    width: 60px;
-  }
-  nav ul {
-    display: none;
-  }
   .menu-bar {
     display: flex;
     flex-direction: column;
@@ -1831,16 +1779,6 @@ footer {
 
 /* ============================Small Devices =============================== */
 @media (min-width: 576px) and (max-width: 767px) {
-  header {
-    padding: 20px;
-    position: relative;
-  }
-  nav ul {
-    display: none;
-  }
-  .logo img {
-    width: 100px;
-  }
   .menu-bar {
     display: flex;
     flex-direction: column;
@@ -2013,12 +1951,6 @@ footer {
 
 /*========================================Medium Devices====================================== */
 @media (min-width: 768px) and (max-width: 991px) {
-  header {
-    padding: 20px 20px;
-  }
-  nav ul {
-    display: none;
-  }
   .menu-bar {
     display: flex;
     flex-direction: column;
@@ -2189,9 +2121,6 @@ footer {
 /* ===================================Large Devices=============================== */
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  header {
-    padding: 20px 60px;
-  }
   .hero {
     margin-top: 100px;
 
