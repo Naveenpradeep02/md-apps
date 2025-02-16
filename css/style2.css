@@ -1779,6 +1779,9 @@ footer {
 
 /* ============================Small Devices =============================== */
 @media (min-width: 576px) and (max-width: 767px) {
+  .section-container {
+    grid-template-columns: 1fr;
+  }
   .menu-bar {
     display: flex;
     flex-direction: column;
@@ -1951,6 +1954,9 @@ footer {
 
 /*========================================Medium Devices====================================== */
 @media (min-width: 768px) and (max-width: 991px) {
+  .section-container {
+    grid-template-columns: 1fr;
+  }
   .menu-bar {
     display: flex;
     flex-direction: column;
@@ -2121,6 +2127,9 @@ footer {
 /* ===================================Large Devices=============================== */
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  .section-container {
+    grid-template-columns: 1fr;
+  }
   .hero {
     margin-top: 100px;
 
